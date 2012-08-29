@@ -83,7 +83,6 @@ public class Screensaver extends Activity {
     };
 
     private final Runnable mMoveSaverRunnable = new Runnable() {
-        @Override
         public void run() {
             long delay = MOVE_DELAY;
 

@@ -490,7 +490,6 @@ public class DeskClock extends Activity {
         mTime.getRootView().requestFocus();
 
         final View.OnClickListener alarmClickListener = new View.OnClickListener() {
-            @Override
             public void onClick(View v) {
                 if (mDimmed) {
                     mDimmed = false;
@@ -509,7 +508,6 @@ public class DeskClock extends Activity {
 
         View touchView = findViewById(R.id.window_touch);
         touchView.setOnClickListener(new View.OnClickListener() {
-            @Override
             public void onClick(View v) {
                 // If the screen saver is on let onUserInteraction handle it
                 if (!mScreenSaverMode) {
@@ -519,7 +517,6 @@ public class DeskClock extends Activity {
             }
         });
         touchView.setOnLongClickListener(new View.OnLongClickListener() {
-            @Override
             public boolean onLongClick(View v) {
                 saveScreen();
                 return true;

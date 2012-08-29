@@ -36,7 +36,7 @@ public class AlarmInitReceiver extends BroadcastReceiver {
         final WakeLock wl = AlarmAlertWakeLock.createPartialWakeLock(context);
         wl.acquire();
         AsyncHandler.post(new Runnable() {
-            @Override public void run() {
+            public void run() {
                 // Remove the snooze alarm after a boot.
                 if (action.equals(Intent.ACTION_BOOT_COMPLETED)) {
                     Alarms.saveSnoozeAlert(context, Alarms.INVALID_ALARM_ID, -1);

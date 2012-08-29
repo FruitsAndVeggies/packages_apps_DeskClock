@@ -126,7 +126,6 @@ public class SetAlarm extends PreferenceActivity implements Preference.OnPrefere
             actionBar.setCustomView(customActionBarView);
             View saveMenuItem = customActionBarView.findViewById(R.id.save_menu_item);
             saveMenuItem.setOnClickListener(new OnClickListener() {
-                @Override
                 public void onClick(View v) {
                     saveAndExit();
                 }
@@ -296,7 +295,6 @@ public class SetAlarm extends PreferenceActivity implements Preference.OnPrefere
         saveAlarm(null);
     }
 
-    @Override
     public void onCancel(DialogInterface dialog) {
         mTimePickerDialog = null;
     }

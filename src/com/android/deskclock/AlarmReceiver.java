@@ -44,7 +44,7 @@ public class AlarmReceiver extends BroadcastReceiver {
         final WakeLock wl = AlarmAlertWakeLock.createPartialWakeLock(context);
         wl.acquire();
         AsyncHandler.post(new Runnable() {
-            @Override public void run() {
+            public void run() {
                 handleIntent(context, intent);
                 result.finish();
                 wl.release();

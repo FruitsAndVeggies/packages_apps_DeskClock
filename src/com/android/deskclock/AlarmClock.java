@@ -324,7 +324,6 @@ public class AlarmClock extends Activity implements OnItemClickListener {
         return super.onCreateOptionsMenu(menu);
     }
 
-    @Override
     public void onItemClick(AdapterView parent, View v, int pos, long id) {
         final Cursor c = (Cursor) mAlarmsList.getAdapter()
                 .getItem(pos);
