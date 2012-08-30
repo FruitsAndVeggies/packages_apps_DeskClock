@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array  name="fnv_clock_backgrounds_drawable"  translatable="false">
-        <item>appwidget_fnv_jelly_clock_dial</item>
+	<item>appwidget_fnv_dark_logo_clock_dial</item>
+	<item>appwidget_fnv_light_logo_clock_dial</item>
+	<item>appwidget_fnv_dark_text_clock_dial</item>
+	<item>appwidget_fnv_light_text_clock_dial</item>
     </string-array>
 </resources>
