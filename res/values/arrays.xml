@@ -5,12 +5,12 @@
 	<item>appwidget_fnv_light_logo_clock_dial</item>
 	<item>appwidget_fnv_dark_text_clock_dial</item>
 	<item>appwidget_fnv_light_text_clock_dial</item>
-	<item>appwidget_fnv_clock_mix3d-1</item>
-	<item>appwidget_fnv_clock_mix3d-2</item>
-	<item>appwidget_fnv_clock_mix3d-3</item>
-	<item>appwidget_fnv_clock_j2-1</item>
-	<item>appwidget_fnv_clock_j2-2</item>
-	<item>appwidget_fnv_clock_j2-3</item>
-	<item>appwidget_fnv_clock_j2-4</item>
+	<item>appwidget_fnv_clock_mix3d_1</item>
+	<item>appwidget_fnv_clock_mix3d_2</item>
+	<item>appwidget_fnv_clock_mix3d_3</item>
+	<item>appwidget_fnv_clock_j2_1</item>
+	<item>appwidget_fnv_clock_j2_2</item>
+	<item>appwidget_fnv_clock_j2_3</item>
+	<item>appwidget_fnv_clock_j2_4</item>
     </string-array>
 </resources>
